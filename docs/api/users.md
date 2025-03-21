@@ -102,7 +102,7 @@
 }
 
 ## 사용자 목록 조회
-- URL : api/users
+- URL : GET /api/users
 - 권한: 관리자
 - 응답 예시:
 ```json
@@ -155,7 +155,9 @@
       "lastConnection": "2025-01-04T10:15:00Z"
     },
   "error": null
+]
 }
+
 ## 토큰 갱신
 - URL: POST /api/auth/refresh-token
 - 권한: 인증된 사용자
